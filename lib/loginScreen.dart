@@ -95,7 +95,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   )));
 
                 },
-                child: Text('Send Otp'),
+                child: Text('Send OTP'),
                 style: OutlinedButton.styleFrom(
                   shape: StadiumBorder(),
 
