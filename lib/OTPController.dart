@@ -96,7 +96,13 @@ class _OTPControllerScreenState extends State<OTPControllerScreen>
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Padding(padding: const EdgeInsets.all(8.0),
-            child: Image.asset("images/otp.png"),
+
+
+            child: Text(
+              "OTP Verification", style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 26
+            ),
+            )
           ),
           Container(
             margin: EdgeInsets.only(top: 20),

@@ -20,10 +20,17 @@ class _HomeScreenState extends State<HomeScreen> {
           style: TextStyle(color: Colors.white),
         ),
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+      body: Column( mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset("images/welcome.jpg"),
+          Padding(padding: const EdgeInsets.all(8.0),
+
+
+              child: Text(
+                "Welcome", style: TextStyle(
+                  fontWeight: FontWeight.bold, fontSize: 28
+              ),
+              )
+          ),
 
           Container(
             margin: EdgeInsets.all(65),
