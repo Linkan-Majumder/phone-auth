@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-// Use your own google-services.json file to app folder.
+// Paste your own generated google-services.json file to android/app/
 
 
 ## Getting Started
